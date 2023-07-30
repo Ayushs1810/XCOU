@@ -7,50 +7,154 @@
     <style>
          header 
         {
-            background-color: #232f3e;
+            background-color:black;
             color: #ffffff;
-            padding: 0px;
+            border-radius:3px;
+            padding: 3px;
+            word-spacing:8px;
             display: flex;
             align-items: center;
-            font-size: 25px;
+            font-size: 10px;
+        }
+        footer
+        {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        nav{
+            font-family:"";
         }
         nav a {
-            color: rgb(255, 255, 255);
+            color: white;
             margin-right: 15px;
             text-decoration: none;
             font-size: 25px;
         }
+        nav a:hover{
+            color:red;
+        }
         #b1
         {
-            background-color: #232f3e;
+            background-color: black;
             border: 0px;
         }
-  
+         span
+         {
+            font-size: large;
+         }
+         .super
+         {
+            /* display:inline-block; */
+         }
+         div.child-div{
+            background-color: #514d4d;
+            box-shadow: 0 0 10px rgb(255,255,255);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            max-width: 700px;
+            display: inline-block;
+            height: 500px;
+            width:450px;
+            /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNXHkcsB_rKquTGLZxDl02I4HMg50__2Dgsg&usqp=CAU");
+            background-size: cover; */
+            }
+
+            .parent-div{
+                display: flex;
+                justify-content: space-between;
+                margin-right: 150px;   
+            }
+
+            .parent-image-div{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                width: 550px;
+            }
+            
+         .but
+         {
+            width: 100%;
+            padding: 10px;
+            background-color: #ffffff;
+            color: rgb(243, 0, 0);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 70px;
+            height: 100px;
+         }
+         .but:hover{
+            background-color: rgb(0, 0, 0);
+            color: #ff0000;
+         }
+         abc:visited
+         {
+            color:#ffffff
+         }
+         a:visited
+         {
+            color: #ff0000;
+         }
+         
+         .im
+         {
+            display: flex;
+            margin-right: 1000px;
+            
+         }
+         body
+         {
+            background-image: url("the-batman-logo-with-reflection-black-and-red-wallpaper-2880x1620_52.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+         }
     </style>
 </head>
-<body bgcolor="grey">
+<body>
     <header>
-            &nbsp; &nbsp;&nbsp;
-            <a href="homepage.html"><img src="Screenshot (99)_1690479638810-fotor-bg-remover-20230728082.png" alt="Logo" height="50" width="50"></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <h1 align="center" padding="5px">Welcome to XCOU</h1>
-            <nav>
+        
+        &nbsp; &nbsp;&nbsp;
+        <img src="Screenshot (99)_1690479638810-fotor-bg-remover-20230728082.png" height="35" width="35">
+        
+        &nbsp;&nbsp;&nbsp;
+        <h1 aligne="center" padding="5px">Welcome to XCOU</h1>
+        <nav>
+                <marquee class="super" behavior="" direction="right"><img src="My project.png" height="45px"width="100px"></marquee>
                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-               <button id="b1"><a href="login.html">Log In</a></button>
+               <button id="b1"><a href="login.html" class="abc">Log In</a></button>
                &nbsp; 
-               <button id="b1"><a href="signup.html">Signup</a></button>
+               <button id="b1"><a href="signup.html" class="abc">Signup</a></button>
                &nbsp;&nbsp;
-               <span>Connect With Us :</span>
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               <a href="https://www.instagram.com/ayush__sonii/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="" height="18" width="18"></a>
-               &nbsp;&nbsp;&nbsp;&nbsp;
-               <a href="https://twitter.com/AyushS_1810"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt="" height="24" width="24"></a>
-               &nbsp;&nbsp;
-               <a href="about.html">About us</a>
-               &nbsp;&nbsp;&nbsp;<a href="credits.html">Credits</a>
+               <a href="about.html" class="abc">About us</a>
+               &nbsp;&nbsp;&nbsp;<a href="credits.html" class="abc">Credits</a>
             </nav>
         </div>
     </header>
+    <br><br>
+    <div class="parent-div">
+        <div class="parent-image-div">
+            <img src="planet-superheroes-coupons.jpg" alt="coupon 1" height="300" width="550">
+            <img src="comicon-offers.jpg" alt="coupon 1" height="300" width="550" class="im">
+        </div>
+        
+        <div class="child-div">
+            <button class="but">Sell Here</button>
+            <br><br>
+            <button class="but"><a href="afterlogin.html" class="abc">Explore</a></button>
+        </div>
+    </div> 
+    <br><br>
+    <footer>
+        &nbsp;&nbsp;
+        <span>Connect With Us :</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/ayush__sonii/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1200px-Instagram_logo_2022.svg.png" alt="" height="18" width="18"></a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/AyushS_1810"><img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt="" height="24" width="24"></a>
+    </footer>
+    
     
 </body>
 </html>

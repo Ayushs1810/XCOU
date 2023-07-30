@@ -8,7 +8,12 @@ body {
     align-items: center;
     height: 100vh;
   }
-  
+  body
+         {
+            background-image: url("the-batman-logo-with-reflection-black-and-red-wallpaper-2880x1620_52.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+         }
   .create-account-container {
     background-color: #ffffff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

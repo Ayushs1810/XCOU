@@ -34,7 +34,12 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
+  body
+         {
+            background-image: url("the-batman-logo-with-reflection-black-and-red-wallpaper-2880x1620_52.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+         }
   button {
     width: 100%;
     padding: 10px;
@@ -53,4 +58,3 @@ body {
     text-decoration: none;
     color: #4CAF50;
   }
-  
